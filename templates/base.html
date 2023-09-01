@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mening Saytim</title>
+</head>
+
+<body>
+
+  <header>
+        <a href= "{% url 'home' %}">Bosh saxifa</a>
+        <a href= "{% url 'about' %}">Biz haqimizda</a>
+        <a href= "{% url 'contact' %}">Telegram</a>
+  </header>
+
+{% block content %}
+{% endblock content %}
+</body>
+
+</html>
